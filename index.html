@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Overlock+SC&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+  <title>MiniCoding</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<style>
+  
+</style>
+<body>
+  <nav>
+    <ul class="sidebar">
+      <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Our Package</a></li>
+      <li><a href="#">Calls Use</a></li>
+    </ul>
+    <div class="log">
+      
+    </div>
+    <ul>
+      <h1 class="log">Rian Mot</h1>
+      <li class="hideOnMobile"><a href="#">Home</a></li>
+      <li class="hideOnMobile"><a href="#">Our Package</a></li>
+      <li class="hideOnMobile"><a href="#">Calls Use</a></li>
+      <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+    </ul>
+  </nav>
+  <div class="content">
+    <h1 style="color: rgb(181, 181, 181);">your trusted travel <span>agent's</span> </h1>
+    <p>your happines is our happines</p>
+  </div>
+
+  <div class="container">
+    <!-- Konten gambar dan formulir -->
+    <div class="image">
+      <img src="asset/image1.png" alt="">
+      <img src="asset/image2.jpeg" alt="">
+      <img src="asset/image3.jpeg" alt="">
+       <img src="asset/image4.png" alt="">
+       <p style="font-style: italic;
+       text-transform: capitalize; color: #fff; margin-top: 10px; margin-left: 30px; font-weight: 210;">"liburan jadi menyenangkan bersama travel<br>agenku"</p>
+
+       <div class="content-profile">
+        <div class="profile"><i class='bx bxs-user'></i></div>
+        <div class="info">
+          <h5>Rian Mot</h5>
+          <p>programmer junior, 16</p>
+        </div>
+       </div>
+      
+    </div>
+    <div class="form">
+      <h1>Contact Us</h1>
+      <p>Seles akan menhubungi anda 1x24<br>jam setelah data kami terima</p>
+      <label class="label1" for="name">your name:</label><br>
+      <input class="input1" type="text" name="" placeholder="First and last name" id="name"><br>
+      <label class="label1" for="email">Email Address:</label><br>
+      <input class="input1" type="text" name="" placeholder="example@email.com" id="email"><br>
+      <label class="label1" for="select">What are you interested in?</label><br>
+      <select class="input1" name="" id="option">
+        <option value="">Select Option</option>
+        <option value="Package 1">Package 1</option>
+        <option value="Package 2">Package 2</option>
+        <option value="Package 3">Package 3</option>
+      </select><br>
+      <button onclick="validateForm()">SEND</button>
+    </div>
+  </div>
+
+  <div class="content-package">
+    <div class="judul">
+      <h3>DiscoverYour Trusted Travel Agent's:
+         Experience Seamless Journeys</h3>
+    </div>
+    <div class="sub-judul">
+      <div class="sub_1">
+    <h2>1</h2>
+    <p>Nikmati liburan tanpa repot dengan<br>paket wisata eksklusif kami yang disesuaikan dengan keinginan Anda</p>
+  </div>
+  <div class="sub_1">
+    <h2>2</h2>
+    <p>Dapatkan dukungan penuh selama perjalanan dengan<br>layanan pelanggan kami yang tersedia</p>
+  </div>
+  <div class="sub_1">
+    <h2>3</h2>
+    <p>Dapatkan akses ke akomodasi terbaik di destinasi Anda dengan berbagai<br>pilihan yang sesuai dengan preferensi dan anggaran Anda</p>
+  </div>
+  </div>
+  </div>
+  <div class="package">
+    <h1>Our Package</h1>
+  </div>
+
+
+  <div class="guarante">
+    <div class="item">
+        <div class="icon">
+          <i class='bx bxs-leaf'></i>
+        </div>
+        <div class="info1">
+            <h3>Bali</h3>
+            <p>Terpesona oleh keindahan alam dan kebudayaan Bali dengan paket perjalanan kami</p>
+        </div>
+        <i class='bx bx-chevron-right'></i>
+    </div>
+    <div class="item">
+        <div class="icon">
+          <i class='bx bxs-leaf'></i>
+        </div>
+        <div class="info1">
+            <h3>Jepang</h3>
+            <p>travel dan wisata di japan kunjungi cagar budaya dan kuliner yang menarik</p>
+        </div>
+        <i class='bx bx-chevron-right'></i>
+    </div>
+    <div class="item">
+        <div class="icon">
+          <i class='bx bxs-leaf'></i>
+        </div>
+        <div class="info1">
+            <h3>Singapura</h3>
+            <p>Jelajahi pesona urban Singapura dengan paket perjalanan kami</p>
+        </div>
+        <i class='bx bx-chevron-right'></i>
+    </div>
+</div>
+
+<div class="last">
+  <hr style="margin-bottom: 100px;">
+  <h1>Terima kasih telah menggunakan layanan kami!</h1>
+        <p>Segera rencanakan petualangan Anda dan hubungi kami untuk<br>informasi lebih lanjut.</p>
+        <button>CALL TO ACTION</button>
+        <hr>
+</div>
+<div class="garis"></div>
+<div class="copy">
+  <h3>RianMot</h3>
+  <p>Terms of service Privacy Policy</p>
+  <p>©2024 Legion</p>
+</div>
+  <script src="js/app.js"></script>
+</body>
+</html>
